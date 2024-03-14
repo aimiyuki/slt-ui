@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import GlobalStyles from "./GlobalStyles.ts";
-import Home from "./Home.tsx";
-import Algorithm from "./Algorithm.tsx";
+
+import App from "./components/App.tsx";
+import Home from "./components/Home.tsx";
+import Algorithm from "./components/Algorithm.tsx";
 
 const router = createBrowserRouter([
   {

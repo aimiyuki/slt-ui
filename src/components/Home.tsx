@@ -1,10 +1,10 @@
 import { useState } from "react";
 import styled from "styled-components";
 import Spinner from "./Spinner";
-import useTranslator from "./use-translator";
 
-import { Sentence, Status } from "./types";
-import { sampleSentences } from "./constants";
+import useTranslator from "../hooks/use-translator";
+import { Sentence, Status } from "../types";
+import { sampleSentences } from "../constants";
 
 const HomeContainer = styled.div`
   display: flex;

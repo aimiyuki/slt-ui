@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { SLT_API_URL } from "./constants";
-import { Sentence } from "./types";
+import { SLT_API_URL } from "../constants";
+import { Sentence } from "../types";
 
 type TranslationResult = {
   oldSentence: Sentence;
