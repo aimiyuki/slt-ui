@@ -2,14 +2,23 @@ import styled from "styled-components";
 
 const Container = styled.div`
   max-width: 800px;
+  margin: 0 auto;
   font-size: 1.1rem;
   line-height: 2rem;
+  text-align: justify;
+
+  @media only screen and (max-width: 600px) {
+    line-height: 1.6rem;
+  }
 `;
 
 const AlgorithmImage = styled.img`
   width: 80%;
   margin: 2rem auto;
   display: block;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export default function Algorithm() {

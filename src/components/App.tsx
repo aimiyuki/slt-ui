@@ -7,6 +7,9 @@ const Container = styled.div`
   max-width: 1140px;
   margin: 0 auto;
   padding: 2rem;
+  @media only screen and (max-width: 600px) {
+    padding: 1rem;
+  }
 `;
 
 function App() {
