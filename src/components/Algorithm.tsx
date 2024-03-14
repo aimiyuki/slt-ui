@@ -32,8 +32,8 @@ export default function Algorithm() {
       </small>
       <p>
         The algorithm is mostly rule-based but uses pretrained models for
-        tokenization, and dependency parsing, as well as for finding synonyms.
-        The transformation happens using the following steps:
+        tokenization, dependency parsing, as well as for finding synonyms. The
+        transformation happens using the following steps:
       </p>
       <ol>
         <li>Tokenization: tokenize our input into its token components</li>
